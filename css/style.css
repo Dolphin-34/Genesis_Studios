@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif; */
+
+body {
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 105px 154px;
+    color: #ffffff;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* --- Header --- */
+
+/* ----Header menu ---- */
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 175px;
+}
+
+.header__nav__ul {
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.header__li:nth-child(n+2) {
+    margin-left: 26px;
+}
+
+/* ----- Header intro ----- */
+
+.header__intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+/* ----- Header intro text ----- */
+
+.header__intro__text {
+    width: 495px;
+}
+
+.intro__text__title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    line-height: 47px;
+}
+
+.text__title {
+    font-weight: 400;
+}
+
+.text__title-bold {
+    font-weight: 700;
+}
+
+.intro__text {
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    width: 400px;
+    margin-top: 10px;
+    line-height: 27px;
+}
+
+/* ----- Header intro button ----- */
+
+
+.intro__text__button {
+    margin-top: 43px;
+}
+
+.intro__text__button-portfolio {
+    margin-right: 51px;
+
+    background-color: #D50138;
+    color: #ffffff;
+    padding: 14px 38px 14px 51px;
+}
+
+.intro__text__button-book-now {
+    border: 1px solid #8A8A8A;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 14px 39px;
+}
+
+/* --- Main --- */
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ---- Main affiliate services ---- */
+
+/* ----- Affiliate services title ----- */
+
+.affiliate__services__title {
+    color: #ffffff;
+    margin: 118px 0px 12px 0px;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line height: 27px;
+}
+
+
+/* ----- Affiliate services ----- */
+
+.affiliate__services {
+    background-color: #FFFFFF1A;
+    padding: 18px 128px 17px 131px;
+}
+
+.affiliate__services__ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.affiliate__services__link {
+    display: flex;
+    align-items: center;
+}
+
+.affiliate__services__text {
+    margin-left: 30px;
+}
+
+/* ---- Main information studio ---- */
+
+.main__information__studio {
+    margin-top: 190px;
+}
+
+.studio {
+    display: flex;
+}
+
+/* ----- information studio text ----- */
+
+.studio__text {
+    display: block;
+    width: 400px;
+    margin: 28px 0px 0px 68px;
+}
+
+.studio__text-one {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 35px;
+}
+
+.studio__text-two {
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+
+    margin-top: 13px;
+}
+
+/* ----- information studio button ----- */
+
+.studio__button__price {
+    margin-top: 24px;
+
+    background-color: #0026FF;
+    color: #ffffff;
+    padding: 14px 27px;
+}
+
+/* ---- information studio work ---- */
+
+.work__studio {
+    margin-top: 178px;
+    display: flex;
+}
+
+.work__studio__text {
+    display: block;
+    width: 400px;
+    margin: 11px 62px 0px 0px;
+}
+
+.studio__button__details {
+    margin-top: 34px;
+
+    background-color: #7502A3;
+    color: #ffffff;
+    padding: 14px 27px;
+}
+
+/* --- Main testimonials --- */
+
+.testimonials {
+    margin-top: 177px;
+}
+
+.testimoials__title {
+    text-align: center;
+    width: 435px;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+.testimoials__title-one {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 19px;
+}
+
+.testimoials__title-two {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+/* ---- Testimoial wrapper card ---- */
+
+.wrapper__card {
+    display: flex;
+    margin-top: 156px;
+}
+
+/* ---- Testimoial card ---- */
+
+.testimoial__card {
+    width: 327px;
+    height: 299px;
+    background-color: #0026FF4D;
+    border-radius: 18px;
+
+    margin: 0 auto;
+}
+
+.testimoial__card:nth-child(n+1) {
+    margin-right: 68px;
+}
+
+/* ----- Testimoial image ----- */
+
+.testimoial__img {
+    text-align: center;
+    margin-top: -81px;
+}
+
+/* ----- Testimoial text ----- */
+
+.testimoial__card__text {
+    text-align: center;
+    margin: 0 auto;
+    width: 235px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.person__name {
+    line-height: 27px;
+    margin: 17px 0px 17px 0px;
+}
+
+.person__text {
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+/* --- Footer --- */
+
+.footer {
+    margin-top: 126px;
+    width: 1125px;
+    height: 356px;
+}
+
+.footer__wrp {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Rectangle\ 25.png);
+    text-align: center;
+}
+
+.footer__content {
+    width: 401px;
+    margin: 0 auto;
+    padding-top: 63px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.foooter__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer__text {
+    margin-top: 19px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.footer_button {
+    margin-top: 32px;
+
+    background-color: #FFFFFF;
+    color: #311B52;
+    padding: 14px 37px;
+}
