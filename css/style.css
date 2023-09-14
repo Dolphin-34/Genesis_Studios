@@ -10,10 +10,9 @@ font-family: 'Outfit', sans-serif; */
 
 body {
     background-color: black;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 105px 154px;
-    color: #ffffff;
+    background-image: url(../img/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul, li {
@@ -33,6 +32,18 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 105px 154px;
+    color: #ffffff;
+}
+
+/* .bg__colours {
+    background-image: url(../img/Ellipse\ 1.png);
+} */
+
 
 /* --- Header --- */
 
